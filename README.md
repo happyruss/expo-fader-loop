@@ -1,5 +1,5 @@
 # expo-fader-loop
-Unfortunately, finding a true seamless/gapless loop can only be seen in Android using an in-memory buffer. This is illustrated in the Breathwork project for android
+Unfortunately, finding a true seamless/gapless loop can only be seen in Android using an in-memory buffer with SoundPool, which is limited to very short sounds. This is illustrated in the happyruss/breathwork_android project for android.
 
 In this case, I am using a "crossfader" to fade the loop out and in upon itself. This is not perfect (yet), but the isLooping feature provided by the AVPlayers for Android and Apple is worse because of the gap. 
 
