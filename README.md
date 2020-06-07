@@ -8,6 +8,7 @@ This is an Illustration of an attempt to seamlessly loop an mp3 using the expo-a
 Currently, it works "eh... ok" for iOS, and not really at all for Android. Any help appreciated, this could help anyone wanting to do seamless or gapless loops using react-native/expo.
 
 # getting started
+Install npm if you don't yet have it (it comes with node.js at https://nodejs.org/en/download/).. then...
 ```
 npm install --global expo-cli
 npm install
