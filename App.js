@@ -5,7 +5,13 @@ import AudioTrackComponent from "./AudioTrackComponent";
 export default function App() {
   return (
     <View style={styles.container}>
-      <AudioTrackComponent keyPrefix={"test"} source={require('./assets/noise30.mp3') } isPlaying={true} volume={1} />
+      <AudioTrackComponent
+        keyPrefix={"test"}
+        source={require('./assets/noise30.mp3') }
+        isPlaying={true}
+        volume={1}
+        clipLengthSeconds={30}
+      />
     </View>
   );
 }
